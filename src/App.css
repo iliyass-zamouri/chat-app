@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+p{
+  font-size: xx-large;
+}
 
 .App-logo {
   height: 40vmin;
@@ -9,12 +12,13 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    color: green;
+    animation: App-logo-spin infinite 0.08s linear;
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: red;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
